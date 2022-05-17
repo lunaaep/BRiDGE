@@ -2,3 +2,20 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
+.text-white:hover {
+  background-color: #edced3;
+  color: white;
+  transition: 0.3s;
+}
+
+.text-white {
+  background-color: #e6adad;
+  color: white;
+}
+
+.text-secondary:hover {
+  background-color: #f8ecee;
+  color: white;
+  transition: 0.3s;
+}
