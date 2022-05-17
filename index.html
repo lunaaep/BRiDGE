@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="fade" onload="document.body.style.opacity='1'">
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -21,7 +21,7 @@
     <!-- bootstrap nav-->
     <div class="container">
       <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link text-white" href="index.html"> <!--style="background-color: #e3645b;"-->Home</a>
+        <a class="nav-item nav-link text-white" href="index.html">Home</a>
         <a class="nav-item nav-link text-secondary" href="connect.html">Connect</a>
         <a class="nav-item nav-link text-secondary"  href="training.html">Training</a>
         <a class="nav-item nav-link text-secondary" href="profile.html">Profile</a>
@@ -30,13 +30,13 @@
     <div class="container">
       <div class="jumbotron" style="background-color:#92b0d1; color:white; font-family: 'Questrial', sans-serif;padding: 50px;">
         <div class="row">
-           <div class="col-8">
+           <div class="col-9">
             <p class="display-4"style="font-size: 40px;font-weight: bold;">Presenting </p><h1 style="font-family: 'Nanum Pen Script'; font-size: 80px; line-height: 40%;"> BRiDGE</h1>
             <p style="font-size: 17px;"class="lead">Bridging the gap between students and local businesses.</p>
               <br>
            </div>
-           <div class="col-4">
-             <img src="Images/BRiDGE logo.png" style="width:150px; height:103px;float:right;">
+           <div class="col-3">
+             <img src="Images/BRiDGE logo.png" style="width:100%; height:auto;float:right;">
            </div>
       </div>
      
@@ -49,7 +49,15 @@
   </div> -->
 
 <br><br>
-
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-8">
+          <h1 id="heading">Intro</h1>
+        <p>*insert problem statement and product description here*</p> </div>
+          <div class="col-4">
+            <img src="Images/Img1.jpg" height="auto" width="250" style="float:right;">
+          </div>
       </div>
     </div>
 </body>

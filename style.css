@@ -2,6 +2,11 @@ html, body {
   height: 100%;
   width: 100%;
 }
+#fade {
+ opacity: 0;
+    transition: opacity 0.05s;
+    -webkit-transition: opacity 1s; /* Safari */ 
+}
 
 .text-white:hover {
   background-color: #edced3;
@@ -18,4 +23,23 @@ html, body {
   background-color: #f8ecee;
   color: white;
   transition: 0.3s;
+}
+
+#fade2 {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#heading {
+  color: #a6a6a6;
 }
