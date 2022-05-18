@@ -43,3 +43,24 @@ html, body {
 #heading {
   color: #a6a6a6;
 }
+
+.form {
+  margin-top: 30px;
+}
+
+.form input {
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.form__input-group {
+  display: block;
+  width: 40%;
+  border-radius: 50px;
+  border: 1px solid #8f8f8f;
+  padding: 0px;
+  margin: 10px 0;
+}
